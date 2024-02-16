@@ -157,4 +157,10 @@ export function isForeignAddress(list) {
     return 0; 
 }
 
-
+if (typeof window !== 'undefined') {
+    window.play = function() {
+        let input = document.getElementById("input").value;
+        let response = simpleAddress(input);
+        document.getElementById("response").innerHTML = response;
+    }
+}
