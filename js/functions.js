@@ -1,6 +1,4 @@
-test = "Calle 44 No 1991";
-
-function simpleAddress(request) {
+export function simpleAddress(request) {
     let list = request.split(' ');
     let address = []
 
@@ -144,7 +142,7 @@ function foreignAddress(list, num) {
     }
 }
 
-function isForeignAddress(list) {
+export function isForeignAddress(list) {
     for (let word of list) {
         if (/[0-9]/.test(word) && /[","]/.test(word) && word == list[0]) {
             return 1;
@@ -152,11 +150,11 @@ function isForeignAddress(list) {
             return 2;
         } else if (/[","]/.test(word)) {
             return 3;
-        } else if (/["No"]/.test(word)) {
+        } else if ("No" === word) {
             return 4;
         }
     }
     return 0; 
 }
 
-console.log(simpleAddress(test));
+

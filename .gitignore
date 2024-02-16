@@ -1,0 +1,22 @@
+# Dependencias
+node_modules
+
+# Archivo de configuración
+npm-debug.log
+
+# Archivos de respaldo
+*.bak
+*.swp
+
+# Ambiente de desarrollo
+.env
+
+# Dependencias de desarrollo
+devDependencies
+
+# Directorio de construcción
+/build
+
+# Archivos de sistema operativo
+.DS_Store
+Thumbs.db

@@ -1,0 +1,24 @@
+{
+  "name": "pwc_code_js",
+  "version": "1.0.0",
+  "description": "desafio de codigo",
+  "main": "function.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha --experimental-modules"
+  },
+  "author": "Vinicius Oliveira das Neves Rodrigues",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViniciusONevesRodrigues/PwC_Code_JS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ViniciusONevesRodrigues/PwC_Code_JS/issues"
+  },
+  "homepage": "https://github.com/ViniciusONevesRodrigues/PwC_Code_JS#readme",
+  "devDependencies": {
+    "chai": "^5.1.0",
+    "mocha": "^10.3.0"
+  }
+}
