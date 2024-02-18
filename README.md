@@ -50,7 +50,7 @@ num: um numero entre 1 e 4 se o endereço for considerado estrangeiro, 0 caso co
 [Download da Versão 1.0.0](https://github.com/ViniciusONevesRodrigues/PwC_Code_JS/releases/tag/v1.0.0) e clique no Address_Splitter.exe
 
 #### Segunda forma:
-Baixe os arquivos, escolha uma IDE para rodar, baixe chai para rodar os test, rode o index.html
+Baixe os arquivos, escolha uma IDE para rodar, baixe node e baixe o mocha com o comando npm install mocha para rodar os test, rode o index.html
 
 
 ## Resultado
